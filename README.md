@@ -53,6 +53,18 @@ JWT_SECRET = your JWT secret
 JWT_LIFETIME = JWT lifetime 
 ```
 
+> Create a .env file in the client directory
+
+> Set up required environment variables.
+
+```
+REACT_APP_ROOT_SERVER_URL = root server URL
+REACT_APP_ROOT_SERVER_PORT = root server port
+REACT_APP_ROOT_SERVER_API_URL = root server API url
+REACT_APP_GOOGLE_CLIENT_ID = google client ID
+REACT_APP_NAME = App name
+```
+
 > In the root directory (backend) and client directory (frontend) run the following command
 
 ```
