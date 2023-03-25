@@ -1,0 +1,27 @@
+.spinner {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0.4);
+  border-width: var(--border-width);
+  border-color: rgba(0, 0, 0, 0.4) transparent rgba(0, 0, 0, 0.4) transparent;
+  animation: spinner 1.2s linear infinite;
+  box-sizing: border-box;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

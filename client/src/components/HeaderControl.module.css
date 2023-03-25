@@ -1,0 +1,32 @@
+.profile-controls {
+  background-color: rgb(var(--background-color));
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+}
+.profile {
+  cursor: pointer;
+  display: contents;
+}
+
+.profile h4 {
+  margin: 0;
+  user-select: none;
+  cursor: pointer;
+  background-image: linear-gradient(
+    0deg,
+    rgb(var(--text-color)) 0%,
+    rgb(var(--text-color)) 100%
+  );
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  background-size: var(--background-size, 0%) 0.1rem;
+  transition: background-size 0.2s linear;
+}
+
+.profile:hover {
+  --background-size: 100%;
+}

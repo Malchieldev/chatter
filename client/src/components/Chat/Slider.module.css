@@ -1,0 +1,18 @@
+.slider {
+  border-radius: 1rem;
+  background-color: rgb(var(--background-color));
+  padding: 1rem 0.5rem;
+  overflow: auto;
+  box-shadow: var(--box-shadow);
+}
+.slider-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.slider-content ul {
+  width: 100%;
+}

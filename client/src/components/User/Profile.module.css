@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  user-select: none;
+  align-items: center;
+}
+
+.fields {
+  margin-left: 2rem;
+}
+
+.fields h3 {
+  margin: 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+  position: relative;
+}
+.field form {
+  display: contents;
+}
+
+.id {
+  color: rgb(200, 200, 200);
+}
+
+.copied {
+  border: 1px solid rgb(var(--text-color));
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(var(--background-color));
+  position: absolute;
+  left: 100%;
+  margin: 0 0.5rem;
+}
+.last-online {
+  display: inline-block;
+  color: rgb(var(--text-color));
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: end;
+  border-top: 1px solid rgb(200, 200, 200);
+  font-size: small;
+}

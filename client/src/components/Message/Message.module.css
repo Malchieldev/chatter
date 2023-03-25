@@ -1,0 +1,29 @@
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+
+.message button {
+  margin: 0 0.5rem;
+}
+
+.container p {
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  background-color: rgb(var(--message-background-color));
+  line-height: 1.5rem;
+  border-radius: 1rem 1rem 1rem 0rem;
+}
+
+.container span {
+  font-size: x-small;
+  color: #616c76;
+  padding: 0 0.25rem;
+}
+.container-mine .message {
+  flex-direction: row-reverse;
+}
+.container-mine p {
+  border-radius: 1rem 1rem 0rem 1rem;
+}
