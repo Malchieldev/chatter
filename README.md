@@ -63,8 +63,18 @@ npm start
 
 Signup
 
+![image](https://user-images.githubusercontent.com/118569517/227731551-1bb78767-770b-46c8-b6c7-d08567e1817e.png)
+
 Main chat
 
-Profile
+![image](https://user-images.githubusercontent.com/118569517/227731528-2f340d3a-2640-486f-bbbd-26f02d500c7c.png)
+
+Profile of current user
+
+![image](https://user-images.githubusercontent.com/118569517/227731593-4b308ba7-1756-46e6-afd4-d909b34bedbf.png)
+
+Profile of another user
+
+![image](https://user-images.githubusercontent.com/118569517/227731621-3e0cf391-871f-4cd2-a6d2-d5888e7c4f10.png)
 
 
