@@ -53,6 +53,18 @@ JWT_SECRET = your JWT secret
 JWT_LIFETIME = JWT lifetime 
 ```
 
+> Create a .env file in the client directory
+
+> Set up required environment variables.
+
+```
+REACT_APP_ROOT_SERVER_URL = root server URL
+REACT_APP_ROOT_SERVER_PORT = root server port
+REACT_APP_ROOT_SERVER_API_URL = root server API url
+REACT_APP_GOOGLE_CLIENT_ID = google client ID
+REACT_APP_NAME = App name
+```
+
 > In the root directory (backend) and client directory (frontend) run the following command
 
 ```
@@ -63,8 +75,18 @@ npm start
 
 Signup
 
+![image](https://user-images.githubusercontent.com/118569517/227731551-1bb78767-770b-46c8-b6c7-d08567e1817e.png)
+
 Main chat
 
-Profile
+![image](https://user-images.githubusercontent.com/118569517/227731528-2f340d3a-2640-486f-bbbd-26f02d500c7c.png)
+
+Profile of current user
+
+![image](https://user-images.githubusercontent.com/118569517/227731593-4b308ba7-1756-46e6-afd4-d909b34bedbf.png)
+
+Profile of another user
+
+![image](https://user-images.githubusercontent.com/118569517/227731621-3e0cf391-871f-4cd2-a6d2-d5888e7c4f10.png)
 
 
