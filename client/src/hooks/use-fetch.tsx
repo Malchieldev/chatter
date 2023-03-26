@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { AppDispatch } from "../store";
 import { useDispatch } from "react-redux";
 
-const url = `${process.env.REACT_APP_ROOT_SERVER_URL}:${process.env.REACT_APP_ROOT_SERVER_PORT}/${process.env.REACT_APP_ROOT_SERVER_API_URL}`;
+const url = `${process.env.REACT_APP_ROOT_SERVER_URL}:${process.env.REACT_APP_ROOT_SERVER_PORT}/api/v1`;
 const headers = {
   "Content-Type": "application/json",
 };
