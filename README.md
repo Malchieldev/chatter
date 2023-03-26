@@ -60,7 +60,6 @@ JWT_LIFETIME = JWT lifetime
 ```
 REACT_APP_ROOT_SERVER_URL = root server URL
 REACT_APP_ROOT_SERVER_PORT = root server port
-REACT_APP_ROOT_SERVER_API_URL = root server API url
 REACT_APP_GOOGLE_CLIENT_ID = google client ID
 REACT_APP_NAME = App name
 ```
