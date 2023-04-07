@@ -1,6 +1,6 @@
-# Chatter
+# Chatter (Typescript)
 
-### Built with Node js, Express js, MongoDB, React TS.
+### Built with Node js, Express, MongoDB, React.
 
 ### Functionalities
 
@@ -12,11 +12,10 @@
 - Sockets
 
 
-
 ### Tech
 
-- Frontend : [React Js](https://reactjs.org/)
-- Backend :  [Express js](https://expressjs.com/)
+- Frontend : [React](https://reactjs.org/)
+- Backend :  [Express](https://expressjs.com/)
 - Database : [MongoDB Atlas](https://www.mongodb.com/)
 - Routing : [React Router Dom V6](https://reactrouter.com/)
 
